@@ -20,7 +20,7 @@ with header:
 
 with dataset:
 
-    df = pd.read_csv("Data\dataset3.csv")
+    df = pd.read_csv("dataset3.csv")
 
     x=df.loc[:, 'feeling nervous':'blamming yourself'].replace("yes", pd.Series(True, df.columns))
     x=x.loc[:, 'feeling nervous':'blamming yourself'].replace("no", pd.Series(False, df.columns))
