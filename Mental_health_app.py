@@ -99,7 +99,7 @@ with modelTraining:
     prog=1  
     progressBar = st.progress(prog)
     
-    for i in range(0,4):
+    for i in range(0,3):
         if word == 'yes':
             
             answers.update({maxword : word})
