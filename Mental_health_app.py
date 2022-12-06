@@ -232,7 +232,7 @@ with modelTraining:
                 elif y_pred_gini[0] == 1:
                     disorder = "Depresi"
                 elif y_pred_gini[0] == 2:
-                    disorder = "Kesendirian"
+                    disorder = "Kesepian"
                 elif y_pred_gini[0] == 3:
                     disorder = "None"
                 elif y_pred_gini[0] == 4:
